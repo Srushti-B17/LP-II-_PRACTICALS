@@ -1,0 +1,15 @@
+/*Apex Programming*/
+
+public class program5 {
+    public static void sortNumbers(){
+        Integer[] numbers =new Integer[]{10,25,50,20,15,17,90,33};
+            
+            numbers.sort();
+        
+        for(Integer num : numbers)
+        {
+            System.debug(num);
+        }
+    }
+
+}
