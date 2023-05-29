@@ -1,0 +1,23 @@
+/*Apex Program */
+
+public class program2 {
+    public static void odd()
+    {
+        for(Integer i=1;i<=30;i++)
+        {
+            if(math.mod(i,2)==0)
+            {
+                System.debug('number is even '+i);
+            }
+            
+           else
+           {
+               System.debug('number is odd'+i);
+           }
+        
+        }
+        
+        
+    }
+
+}
