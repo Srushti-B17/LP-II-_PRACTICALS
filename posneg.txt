@@ -1,0 +1,20 @@
+/* Apex Programming */
+
+public class program3a
+{
+    
+    public static void positive()
+    {
+        Integer i=-10;
+        
+        if(i>0)
+        {
+            System.debug('Number is positive : '+i);
+        }
+        else
+        {
+            System.debug('Number is Negative : '+i);
+        }
+        
+    }
+}
